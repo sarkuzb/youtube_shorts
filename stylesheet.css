@@ -1,0 +1,72 @@
+p{
+  margin: 0;
+}
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.logo{
+  padding: 30px 0 30px 0;
+}
+
+.logo-image{
+  width: 100px;
+  cursor: pointer;
+}
+
+.container-two{
+  display: flex;
+  flex-direction: column;
+  column-gap: 30px;
+  padding: 0 30px 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.329);
+}
+
+.container-three{
+  display: flex;
+  column-gap: 30px;
+}
+
+.image{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.texts-more{
+  display: flex;
+}
+
+.texts{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.more{
+  padding: 5px;
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+.more:hover{
+  cursor: pointer;
+  background-color: rgb(235, 235, 235);
+}
+
+.more:active{
+  background-color: rgb(197, 197, 197);
+  transition: 0.2s ease-out;
+}
